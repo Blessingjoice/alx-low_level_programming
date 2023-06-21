@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_times_table - prints the n-times table 
+ * print_times_table - prints the n-times table
  * startin with zero.
  *
  * @n : integer to use.
@@ -10,6 +10,7 @@
 void print_times_table(int n)
 {
 	int a, b, mult;
+
 	if (n <= 15 && n >= 0)
 	{
 		for (a = 0; a <= n; a++)
@@ -24,6 +25,8 @@ void print_times_table(int n)
 				if (mult <= 9)
 				{
 					_putchar(' ');
+					_putchar(' ');
+					_putchar(mult + '0');
 				}
 				if (mult <= 99)
 				{
