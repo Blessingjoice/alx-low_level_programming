@@ -29,6 +29,7 @@ void times_table(void)
 			{
 				_putchar(' ');
 				_putchar('0' + mult);
+			}
 			else
 			{
 				_putchar('0' + mult / 10);
