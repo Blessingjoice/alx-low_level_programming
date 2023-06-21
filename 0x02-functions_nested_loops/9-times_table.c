@@ -16,13 +16,9 @@ void times_table(void)
 		for (b = 0; b <= 9; b++)
 		{
 			mult = a * b;
-			if (b == 0)
+			if (b < 9)
 			{
-				_putchar('0' + mult);
-			}
-			else if (b < 9)
-			{
-			 	_putchar(',');
+				_putchar(',');
 				_putchar(' ');
 			}
 			if (mult <= 9)
