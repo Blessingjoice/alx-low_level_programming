@@ -6,17 +6,17 @@
  *
  * @n : number to start from
  *
- * Return:0
+ * Return:0 or 1
  */
 void print_to_98(int n)
 {
-	int counter;
+	int count;
 
 	if (n < 98)
-		for (counter = n; counter < 98; counter++)
-		printf("%d, ", n);
+		for (count = n; count < 98; count++)
+			printf("%d, ", count);
 	else
-		for (counter = n; counter > 98; counter--)
-		printf("%d, ", n);
+		for (count = n; count > 98; count--)
+			printf("%d, ", count);
 	printf("98\n");
 }
