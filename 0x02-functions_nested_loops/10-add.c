@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * add - add two integers 
+ * add - add two integers
  * and return the result.
  *
  * @a: int type number
