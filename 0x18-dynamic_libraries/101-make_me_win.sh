@@ -1,3 +1,3 @@
 #!/bin/bash
-gcc *.o -fPIC -shared -o libruin.so
-LD_PRELOAD=$PWD/libruin.so
+gcc *.o -fPIC -shared -o hacked.so
+LD_PRELOAD=$PWD/hacked.so
