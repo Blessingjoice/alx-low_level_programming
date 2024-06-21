@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 #ifndef _MAIN_H_
 #define _MAIN_H_
+=======
+#ifndef __MAIN__
+#define __MAIN__
+>>>>>>> 0d3d4dffc14e8ae3d0921165481f0290ea7d8599
 
 int _putchar(char c);
 int _islower(int c);
@@ -21,5 +26,12 @@ char *_strchr(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
+<<<<<<< HEAD
 
 #endif
+=======
+int nrandom();
+
+
+#endif /* __MAIN__ */
+>>>>>>> 0d3d4dffc14e8ae3d0921165481f0290ea7d8599
